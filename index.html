@@ -75,50 +75,116 @@
 
   <form action="https://jsonplaceholder.typicode.com/posts" method="POST">
     <fieldset>
-      <label><input type="radio" name="halls" value="80`s vibes"><span>80`s vibes</span></label>
-      <label><input type="radio" name="halls" value="star wars"><span>star wars</span></label>
-      <label><input type="radio" name="halls" value="wild west"><span>wild west</span></label>
-      <label><input type="radio" name="halls" value="neon style"><span>neon style</span></label>
+      <label>
+        <input type="radio" name="halls" value="80`s vibes">
+        80`s vibes
+      </label>
+      <label>
+        <input type="radio" name="halls" value="star wars">
+        star wars
+      </label>
+      <label>
+        <input type="radio" name="halls" value="wild west">
+        wild west
+      </label>
+      <label>
+        <input type="radio" name="halls" value="neon style">
+        neon style
+      </label>
     </fieldset>
 
     <fieldset>
       <legend>Собери набор развлечений</legend>
       <fieldset>
-        <legend>Приставки</legend>
-        <label><input type="radio" name="console" value="PlayStation"><span>PlayStation</span></label>
-        <label><input type="radio" name="console" value="Sega Mega Drive"><span>Sega Mega Drive</span></label>
-        <label><input type="radio" name="console" value="X-box One S"><span>X-box One S</span></label>
-        <label><input type="radio" name="console" value="dendy"><span>Dendy</span></label>
+        <legend>Приставки:</legend>
+        <label>
+          <input type="radio" name="console" value="PlayStation">
+          PlayStation
+        </label>
+        <label>
+          <input type="radio" name="console" value="Sega Mega Drive">
+          Sega Mega Drive
+        </label>
+        <label>
+          <input type="radio" name="console" value="X-box One S">
+          X-box One S
+        </label>
+        <label>
+          <input type="radio" name="console" value="dendy">
+          Dendy
+        </label>
       </fieldset>
 
       <fieldset>
-        <legend>Настольные игры</legend>
-        <label><input type="checkbox" name="table-games" value="Jenga"><span>Jenga</span></label>
-        <label><input type="checkbox" name="table-games" value="Monopoly"><span>Monopoly</span></label>
-        <label><input type="checkbox" name="table-games" value="Munchkin"><span>Манчкин</span></label>
-        <label><input type="checkbox" name="table-games" value="Alias"><span>Alias</span></label>
+        <legend>Настольные игры:</legend>
+        <label>
+          <input type="checkbox" name="table-games" value="Jenga">
+          Jenga
+        </label>
+        <label>
+          <input type="checkbox" name="table-games" value="Monopoly">
+          Monopoly
+        </label>
+        <label>
+          <input type="checkbox" name="table-games" value="Munchkin">
+          Манчкин
+        </label>
+        <label>
+          <input type="checkbox" name="table-games" value="Alias">
+          Alias
+        </label>
       </fieldset>
 
       <fieldset>
-        <legend>Дополнительно</legend>
-        <label><input type="checkbox" name="additionally" value="Karaoke"><span>Караоке</span></label>
-        <label><input type="checkbox" name="additionally" value="VR"><span>VR</span></label>
+        <legend>Дополнительно:</legend>
+        <label>
+          <input type="checkbox" name="additionally" value="Karaoke">
+          Караоке
+        </label>
+        <label>
+          <input type="checkbox" name="additionally" value="VR">
+          VR
+        </label>
       </fieldset>
     </fieldset>
 
     <fieldset>
       <legend>Выбери дату и время</legend>
-      <label><span>Дата<sup>*</sup></span><input type="date" name="date" required></label>
-      <label><span>Время<sup>*</sup></span><input type="time" name="time" required></label>
-      <label><span>Количество человек<sup>*</sup></span><input type="number" name="people" required></label>
-      <label><span>Имя<sup>*</sup></span><input type="text" name="name" required></label>
-      <label><span>Фамилия<sup>*</sup></span><input type="text" name="surname" required></label>
-      <label><span>Номер телефона<sup>*</sup></span><input type="tel" name="phone" required></label>
-      <label><input type="checkbox" name="adult"><span>Я старше 18 лет</span></label>
+      <label>
+        Дата<sup>*</sup>
+        <input type="date" name="date" required>
+      </label>
+      <label>
+        Время<sup>*</sup>
+        <input type="time" name="time" required>
+      </label>
+      <label>
+        Количество человек<sup>*</sup>
+        <input type="number" name="people" required>
+      </label>
+      <label>
+        Имя<sup>*</sup>
+        <input type="text" name="name" required>
+      </label>
+      <label>
+        Фамилия<sup>*</sup>
+        <input type="text" name="surname" required>
+      </label>
+      <label>
+        Номер телефона<sup>*</sup>
+        <input type="tel" name="phone" required>
+      </label>
+      <label>
+        <input type="checkbox" name="adult">
+        Я старше 18 лет
+      </label>
     </fieldset>
 
-    <label><input type="submit" value="Забронировать"></label>
-    <label><input type="checkbox" name="private" required><span>Согласен на обработку данных</span></label>
+    <button>Забронировать</button>
+    <label>
+      <input type="checkbox" name="private" required>
+      Согласен на обработку данных
+    </label>
   </form>
   
   <h2>О нас</h2>
