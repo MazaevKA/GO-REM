@@ -1,0 +1,35 @@
+.questions__item {
+  background-color: #fff;
+  color: #1C1A1A;
+  font-weight: 700;
+  font-size: 24px;
+  padding: 30px 70px;
+  margin-bottom: 20px;
+}
+
+.questions__item:nth-child(even) {
+  background-color: #440F51;
+  color: #FFF;
+}
+
+.questions__item {
+  position: relative;
+}
+
+.questions__item::before, .questions__item::after {
+  position: absolute;
+  display: block;
+  height: 50px;
+  width: 50px;
+  right: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.questions__item:nth-child(even)::after {
+  content: url("../img/open.svg");
+}
+
+.questions__item:nth-child(odd)::after {
+  content: url("../img/open-purple.svg");
+}
