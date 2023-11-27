@@ -1,0 +1,13 @@
+.social__item {
+    display: inline-block;
+    margin-right: 2.8rem;
+}
+
+.social__item:last-child {
+    margin-right: 0;
+}
+
+.social__img {
+    height: 5rem;
+    width: 5rem;
+}
