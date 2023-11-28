@@ -28,11 +28,11 @@
   margin-bottom: 0;
 }
 
-.faq__item:nth-of-type(2n) {
+.faq__item:nth-of-type(even) {
   background-color: #440F51;
   color: #FFFFFF;
 }
 
-.faq__item:nth-of-type(2n):after {
+.faq__item:nth-of-type(even):after {
   background: url("../img/open.svg") no-repeat center / contain;
 }
