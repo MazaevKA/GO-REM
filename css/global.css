@@ -15,7 +15,6 @@ html {
 body {
     position: relative;
     overflow-x: hidden;
-    min-width: 64rem;
     min-height: 100vh;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -76,7 +75,7 @@ iframe {
 }
 
 .container {
-    max-width: 118rem;
+    width: 118rem;
     margin: 0 auto;
 }
 

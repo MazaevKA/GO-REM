@@ -5,50 +5,30 @@
     line-height: 2.8rem;
     padding-left: 6rem;
     margin-bottom: 4rem;
-}
-
-.contacts__wrap a {
-    display: inline-block;
-    margin-bottom: 1.1rem;
-}
-
-.contacts__wrap a:last-child {
-    margin-bottom: 0;
+    font-style: normal;
 }
 
 .contacts__address {
     position: relative;
-    margin-bottom: 3.8rem;
 }
 
-.contacts__address:before {
-    position: absolute;
-    content: "";
-    background: url("img/icon-location.svg") no-repeat center / contain;
-    width: 3.5rem;
-    height: 3.2rem;
-    left: -6rem;
-    top: 1.2rem;
-}
-
-.contacts__phone, .contacts__mail {
+.contacts__item {
     position: relative;
 }
 
-.contacts__phone:before {
-    position: absolute;
-    content: "";
-    background: url("img/icon-phone.svg") no-repeat center / contain;
-    width: 3.5rem;
-    height: 3.2rem;
-    left: -6rem;
+.contacts__item {
+    margin-bottom: 1.1rem;
 }
 
-.contacts__mail:before {
+.contacts__item:first-child {
+    margin-bottom: 3.8rem;
+}
+
+.contacts__item:last-child {
+    margin-bottom: 0;
+}
+
+.contacts__icon {
     position: absolute;
-    content: "";
-    background: url("img/icon-envelope.svg") no-repeat center / contain;
-    width: 3.5rem;
-    height: 3.2rem;
     left: -6rem;
 }

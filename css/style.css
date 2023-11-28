@@ -1,5 +1,5 @@
 @import "normalize.css";
-@import "settings.css";
+@import "global.css";
 @import "../blocks/banner/banner.css";
 @import "../blocks/functional/functional.css";
 @import "../blocks/halls/halls.css";
